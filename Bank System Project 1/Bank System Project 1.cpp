@@ -134,24 +134,6 @@ bool ClientExistByAccountNumber(string AccountNumber, string FileName)
 
 }
 
-//bool IsValidDouble(const string& str)
-//{
-//    if (str.empty()) return false;
-//    bool dotFound = false;
-//
-//    for (char c : str)
-//    {
-//        if (!isdigit(c))
-//        {
-//            if (c == '.' && !dotFound)
-//                dotFound = true;
-//            else
-//                return false;
-//        }
-//    }
-//    return true;
-//}
-
 sClient ReadNewClient()
 {
     sClient Client;
